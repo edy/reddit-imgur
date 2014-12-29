@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Reddit Imgur Expander",
+  "description": "This Google Chrome extension expands imgur links on reddit.com",
+  "version": "1.0",
+  "permissions": [
+    "http://www.reddit.com/",
+    "https://www.reddit.com/"
+  ],
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "icons": {
+      "128": "icon.png"
+  },
+  "content_scripts": [{
+    "matches": [
+        "http://www.reddit.com/*",
+        "https://www.reddit.com/*"
+    ],
+    "css": ["style.css"],
+    "js": ["script.js"]
+  }]
+}
