@@ -7,6 +7,11 @@ This Google Chrome extension expands imgur links on reddit.com
 ## Screenshot
 ![](screenshot.jpg)
 
+## Changelog
+### 1.1.0 (26 Feb 2016)
+- Added gifv support
+- Display only a large thumbnail instead of the full image
+
 # License
 
 The MIT License (MIT)
