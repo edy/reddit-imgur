@@ -12,7 +12,7 @@ for (var i = 0; i < titles.length; i++) {
 
 function isVideo (uri) {
 	if (uri) {
-		var match = uri.match(/.gifv$/);
+		var match = uri.match(/.(gifv?|webm|mp4)$/);
 		if (match !== null) {
 			return true;
 		}
